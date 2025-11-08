@@ -182,4 +182,4 @@ You’re free to use, modify, and share the code — attribution appreciated.
 
 ---
 
-Would you like me to generate a **clean, competition-ready PDF version** of this README (with your team logo, wiring diagram slot, and proper formatting) for submission to Coding Quest?
+
