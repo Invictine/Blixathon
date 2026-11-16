@@ -1,6 +1,6 @@
 # Blixathon Line Follower
 
-Arduino competition robot prototype for following a black line on a light track. The sketch uses a QTR-8RC array, centroid-based line position, PD steering, and staged recovery after losing the line.
+The fun part of a line follower is what happens after it stops seeing the line. This competition prototype combines an eight-sensor QTR array, centroid-based PD steering, serial tuning, and a staged coast/arc/spin recovery loop. Use it as a starting point for your own track and tune it to your wiring; PRs that make recovery smarter are welcome.
 
 ## First run
 
