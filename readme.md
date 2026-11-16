@@ -1,4 +1,10 @@
-# 🏎️ Line Follower Robot — Coding Quest Competition
+# Blixathon Line Follower
+
+An Arduino competition robot that follows a contrasting track and attempts to recover when it loses the line.
+
+## First run
+
+Start with the hardware and wiring notes below. Open [line_follower.ino](line_follower.ino) in the Arduino IDE, select the board matching your hardware, and upload. Check readings over the track and background before tuning the control parameters. Test at low speed with clearance around the robot.
 
 **Team Name:** Valley Boys Robotics
 **Project:** Autonomous Line Follower Robot (QTR-8RC)
@@ -181,5 +187,3 @@ This project is open-source under the **MIT License**.
 You’re free to use, modify, and share the code — attribution appreciated.
 
 ---
-
-
