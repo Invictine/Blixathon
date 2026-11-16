@@ -10,8 +10,8 @@ Arduino competition robot prototype for following a black line on a light track.
 4. Place the array over both the line and background, upload the sketch, then test at low speed in an open area.
 5. Tune gains and speed from the Serial Monitor using the controls below.
 
-**Team:** Valley Boys Robotics  
-**Competition:** Coding Quest 2025  
+**Team:** Valley Boys Robotics
+**Competition:** Coding Quest 2025
 **Platform:** Arduino Uno, L298N motor driver, QTR-8RC 8-sensor array
 
 ## Control path
