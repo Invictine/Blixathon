@@ -1,6 +1,10 @@
 # Blixathon Line Follower
 
-The fun part of a line follower is what happens after it stops seeing the line. This competition prototype combines an eight-sensor QTR array, centroid-based PD steering, serial tuning, and a staged coast/arc/spin recovery loop. Use it as a starting point for your own track and tune it to your wiring; PRs that make recovery smarter are welcome.
+High-speed line tracking demands predictable error compensation when the sensor array loses the track. This competition prototype pairs an Arduino Uno with an eight-sensor Pololu QTR-8RC reflectance array, an L298N dual H-bridge motor driver, and a closed-loop PD steering algorithm with runtime Serial Monitor calibration. When the line is lost, a staged recovery routine executes coast, arc, and spin maneuvers to reacquire the heading. Review the pin map below, adapt the PID gains to your chassis, and submit pull requests with enhanced recovery logic.
+
+[![Blixathon Line Follower](media/overview.png)](media/walkthrough.mp4)
+*Click preview above to watch illustrated architecture overview.*
+
 
 ## First run
 
